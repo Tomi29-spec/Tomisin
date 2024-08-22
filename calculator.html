@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculaor</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <input type="text" placeholder="0" id="answer" disabled>
+        </div>
+        <div class="row2">
+            <button onclick="val('*')">*</button>
+            <button onclick="val('/')">/</button>
+            <button onclick="val('-')">-</button>
+            <button onclick="val('+')">+</button>
+        </div>
+
+        <div class="row3">
+            <button onclick="val('9')">9</button>
+            <button onclick="val('8')">8</button>
+            <button onclick="val('7')">7</button>
+            <button onclick="val('6')">6</button>
+        </div>
+
+        <div class="row4">
+            <button onclick="val('5')">5</button>
+            <button onclick="val('4')">4</button>
+            <button onclick="val('3')">3</button>
+            <button onclick="val('2')">2</button>
+        </div>
+        <div class="row5">
+            <button onclick="val('1')">1</button>
+            <button onclick="val('9')">0</button>
+            <button onclick="val('.')">.</button>
+            <button onclick="answer()" style="background-color: green;">=</button>
+        </div>
+        <div class="clr"><button onclick="clearAll()" style="background-color: red;
+        margin-top: 5%;">
+            AC</button></div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

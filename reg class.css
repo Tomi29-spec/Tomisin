@@ -1,0 +1,22 @@
+h1{
+    color: rgb(5, 5, 10);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+button{
+    border: 5px darkred dotted;
+    font-size: 15px;
+    border-radius: 30px;
+}
+h5{
+    color: red;
+}
+
+body{
+    background: linear-gradient(120deg, aquamarine, black);
+}
+    
+h3{
+    color: burlywood;
+}

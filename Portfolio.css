@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(131, 126, 126);
+}
+ul li{
+    list-style-type: none;
+
+}
+.navbar ul{
+     /* float: left;
+    margin-left: 85%; */
+    display: flex;
+    gap: 40px;
+    margin-left: 10%;
+}
+.navbar{
+    display: none;
+}
+button{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    font-family: serif;
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.913);
+    text-decoration: dotted;
+    
+}
+.content {
+    display: none;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+span{
+    font-size: 35px;
+    font-family: serif;
+    color: rgb(0, 0, 0);
+}
+html{
+    scroll-behavior: smooth;
+}
+.Services{
+display: none;
+}
+.Contacts{
+    display: none;
+}
+footer{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: courier new;
+    margin-left: 90%;
+    float: left;
+}
+.Home{
+    display: none;
+    color: black;
+    font-size: 100px;
+}

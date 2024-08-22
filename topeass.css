@@ -1,0 +1,39 @@
+.img1{
+    border-radius: 180px;
+    width: 90px;
+    height: 90px;
+}
+h2{
+color: black;
+font-size: xx-large;
+font-style: italic;
+font-family: monospace;
+}
+.container{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 9px;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+.border{
+    width: 250px;
+    height: 280px; 
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightcoral;
+    margin: 0.8cm;
+   
+}
+h6{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+}
+

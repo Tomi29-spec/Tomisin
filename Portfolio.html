@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><button id="home" style="font-size: 30px; width: 200px; padding: 1%; background-color:  rgb(131, 126, 126);">Home</button></li>
+            <li><button id="" style="font-size: 30px; width: 200px; padding: 1%; background-color:  rgb(131, 126, 126);">Blog</button></li>
+            <li><button id="services" style="font-size: 30px; width: 200px; padding: 1%; background-color:  rgb(131, 126, 126);">Services</button></li>
+            <li><button id="about" style="font-size: 30px; width: 200px; padding: 1%; background-color:  rgb(131, 126, 126);">About</button></li>
+            <li><button  id="contacts" style="font-size: 30px; width: 200px; padding: 1%; background-color:  rgb(131, 126, 126);">Contacts</button></li>
+        </ul>
+    </div>
+    <br>
+    <div class="Home">
+MIRACLE VENTURES
+    </div>
+    <br>
+    <div class="content">
+        <span style="color: aliceblue;"><b style="font-size: 65px; font-family: serif;">
+            Miracle Ventures<br>
+             <span> Miracle's page is a page created with the view of making our Customers or Buyers close to us. <br>This page was not only created with the aim of making profits but also created with the aim of satisfying our customers with the best. <br>In this page we are going to satisfy you with nothing else but the best customer service we can render.</span>
+        </span>
+    </div>
+    <br>
+    <div class="Services">
+        <span style="color: aliceblue;"><b style="font-size: 55px; font-family: serif;">
+            <br>THE LIST OF SERVICES WE OFFER ARE AS FOLLOWS:
+             <span>  
+                <li>Catering Services.</li>
+                <li>Decorations.</li>
+                <li>Making of Small Chops.</li>
+                <li>Suprise Events Anchor.</li>
+                <li>Event Planning.</li>
+                <li>Master of Ceremony.</li>
+                <li>Alaga Iduro/ Alaga Ijoko, e.t.c</li>
+            </span>
+        </span>
+    </div>
+    <div class="Contacts">
+        <span style="color: aliceblue;"><b style="font-size: 55px; font-family: serif;">
+           <br>For more Enquiries:
+           <span> <br>You can contact us on 08160735678 
+            <br> You can also message us on whatsapp through 08050879006</span>
+        </span>
+    </div>
+   <center>
+    <div class="imgs">
+        <img src="Miracle Ventures_20240801_133253_0000.png" height="150" width="250">
+        <img src="Testimony 3.jpg" height="150" width="250">
+    </div>
+</center>
+    <button id="Anim" style="width: 180px; font-size: 20px; font-family: sans-serif; background-color:   rgb(131, 126, 126); color: black; margin-left: 20%;">click to animate</button>
+    <div class="animation">
+        <img src="WhatsApp Image 2024-03-24 at 06.43.14_b4b40617 (2).jpg" height="150" width="250">
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".navbar").fadeIn(1000)
+        })
+         $("#about").click(function(){
+            $(".content").fadeToggle('100')
+         })
+         $("#services").click(function(){
+            $(".Services").fadeToggle('100')
+         })
+         $("#contacts").click(function(){
+            $(".Contacts").fadeToggle('100')
+         })
+         $("#Anim").click(function(){
+                $(".animation").animate({
+                    height:'toggle',
+                    //left: '200px'
+                })
+            })
+            $("#home").click(function(){
+            $(".Home").fadeToggle('100')
+         })
+    </script>
+        <span>
+            <h1 id="h1"></h1></span>
+            <div class="footer">
+                <footer><span>&copy;</span>
+                2024</footer>
+                </div>
+    <script src="Portfolio.js"></script>
+</body>
+</html>
