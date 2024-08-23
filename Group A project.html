@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | FCAH&PTIB</title>
+    <link rel="stylesheet" href="Group A project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="FCAHPT LOGO.png">
+  </head>
+<body>
+   
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="logo">
+       <img src="FCAHPT LOGO.png" alt="">
+       <h1 style="font-weight: bolder; font-size: xx-large;">Federal College Of Animal Health and Production Technology</h1>
+      </div>
+        <ul>
+          <div class="header">
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-star"></i> About</li>
+            <li><i class="fas fa-graduation-cap"></i> Our program</li>
+            <li><i class="fas fa-arrow-circle-left"></i> Apply For Admission</li>
+            <li><i class="fas fa-arrow-circle-right"></i> Student Portal</li>
+            <li><i class="fas fa-arrow-circle-right"></i> Apply For Transcript</li>
+            <li><i class="fas fa-book"></i> News And Publication</li>
+            <li><i class="fas fa-book"></i> E-Library</li>
+          </div>
+        </ul>
+      </nav>
+      <h2 style="margin-left: 50px; font-weight: bolder; font-size: 40px;">Applying to Federal College of Animal Health and Production Technology</h2>
+
+      <div class="main-container">
+        <div class="Admission">
+          <p>- Click on "Apply for Admission"</p>
+          <p>-Select Pogram (ND or HND), program type(Full-Time or Part-Time) and Course</p>
+          <P>-Sign up by filling the sign-up form and click on submit</P>
+          <h3>Please note:</h3>
+          <p style="font-size: x-large;"><b>- ensure you use functioning phone number and email address that is <br>
+             valid, accessible and functioning.</b>
+          </p>
+          <p>-After submission a verification mail will be sent to your mail</p>
+          <p>-Click the link in the verification mail.You will be redirected to the login page,<br>
+          enter your email/jamb registration number and password.</p>
+          <p>-Pay the required Post-UTME fee of 2,000naira(for National diploma candidates) and
+           <br> 10,000naira(for Higher national diploma candidates)
+          </p>
+          <p>-Complete the biodata form and upload all necessary documents</p>
+          <p>-Print out the photo cards and bring it along on the post UTME/screeningday.<br>This is what will
+            be used to admit candidate into the examination. 
+          </p>
+          <p>-Continue to check your email for invitation for Post-UTME exam/screening.</p>
+        </div>
+        <div class="container2">
+          <div class="login-head" style="background-color: whitesmoke; font-weight: bold; font-size: x-large; height: 46px; margin-top: 3px;">
+           <center><h2>Login</h2></center>
+          </div>
+          <form id="login-Form">
+            <label style="font-weight: bold; font-size: large;">Jamb Registration Number OR Email Address</label><br>
+            <input type="text" id="inputText" placeholder="Enter Email OR Enter Jamb Registration Number" required 
+            style="height: 30px; width: 400px; border-radius: 5px; border-width: 3px; "><br>
+            <br>
+            <label id="label" style="font-weight: bold; font-size: large;">Password</label><br>
+            <input type="password" id="passwordText" placeholder="Enter Password" required
+            style="height: 30px; width: 400px; border-radius: 5px; border-width: 3px;"><br>
+
+            <div id="forgot">
+              <a href="forgot password.html">Forgot Password?</a><br>
+              <button onclick="validateForm()">Login</button>
+            </div>
+            <p id="errorMessage" class="error"></p>
+          </form>
+        </div>
+      </div>
+      <div class="footer"
+       style="margin-top: 10px; margin-bottom: 20px; height: 29px; font-weight: bold; background-color: white;">
+        <footer>
+            2024 &copy;</span>
+         FCAHPTIB 
+        college@fcahptib.edu.ng </footer>
+        </div>
+
+<script src="Group A project.js"></script> 
+</body>
+</html>

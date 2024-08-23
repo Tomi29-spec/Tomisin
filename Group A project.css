@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color:  whitesmoke;
+    font-family: Arial, sans-serif; 
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: brown;
+    height: 110px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    padding: 0 20px; 
+     /* Include padding in the total width and height */
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    color: #fff;
+    padding-left: 60px; /* Adjusted padding for alignment */
+}
+
+.header {
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    height: 70px;
+    width: calc(100% - 40px); /* Adjust width to fit within the viewport considering padding/margin */
+    position: fixed; 
+    top: 140px; /* Position below the logo by 100px */
+    margin-left: -12px; /* Align to the left of the viewport */
+    margin-top: -40px;
+    z-index: 999; /* Ensure it's below the logo */
+    border-radius: 5px;
+    padding: 0 20px; 
+    box-sizing: border-box; /* Include padding in the total width and height */
+}
+
+nav {
+    
+    position: static;
+}
+
+
+body {
+    margin-top: 180px; 
+}
+
+li {
+    list-style: none;
+    color: #000;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 70px; 
+    gap: 15px;
+    font-weight: light;
+    font-size: 19px;
+}
+
+.Admission {
+    background-color: #fff;
+    width: 1000px;
+    border-radius: 6px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.container2 {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    width: 500px;
+}
+
+
+form {
+    margin-top: 40px;
+}
+
+input {
+    margin-top: 20px;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#forgot {
+    margin-top: 30px;
+}
+
+a {
+    margin-left: 300px;
+}
+
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #494444;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.bkl {
+    /* Removed empty height */
+    margin-top: -25px;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}
